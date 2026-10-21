@@ -1,65 +1,52 @@
 <!--
-  ESTILO: Terminal / código (el perfil como un objeto de Python)
-  INSPIRACIÓN: Thai Braga (github.com/Thaiane/Thaiane), categoría "Code Mode 👨🏽‍💻",
-  que presenta su perfil como un objeto de JavaScript.
-  Paleta: fondo #0D1117 · esmeralda #10B981 (texto de consola) · dorado #F5C451
+  ESTILO: Terminal / código ("script de conciliación")
+  INSPIRACIÓN: Thai Braga (github.com/Thaiane/Thaiane, "Code Mode 👨🏽‍💻"), que presenta su perfil como un objeto,
+  y la herramienta "Github Readme Insight Terminal Ascii" de la sección Tools de la lista.
+  Lección tomada: el código debe parecer un script real de tu oficio, no una plantilla de "about me".
 -->
 
-<p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=20&duration=2500&pause=800&color=10B981&vCenter=true&width=600&lines=%24+whoami;jeff+%40+bucaramanga%2C+colombia;%24+python+profile.py;%3E%3E%3E+finance+%2B+automation+%3D+%E2%9C%85" alt="Terminal" />
-</p>
+<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&size=20&duration=2200&pause=900&color=7FC8A9&vCenter=true&width=640&height=40&lines=%24+python+conciliar.py+--cliente+jeff;Reconciling+accounts...+ok;Freight+invoices+matched+to+TMS...+ok;Payroll+hours+loaded+from+Excel...+ok" alt="$ python conciliar.py --cliente jeff" />
 
 ```python
-# profile.py
-class Jeff:
-    """Accounting & financial consultant who automates the boring parts."""
+# conciliar.py
+from dataclasses import dataclass, field
 
-    location  = "Bucaramanga, Colombia 🇨🇴"
-    languages = ["Español", "English"]
 
-    def __init__(self):
-        self.role = "Accounting & financial consultant for Colombian companies"
-        self.automation = {
-            "logistics": "Python automations for freight & TMS",
-            "excel":     ["payroll system", "time-tracking system"],
-        }
-        self.building = "POS / QR ordering platform for restaurants"
-        self.stack = ["Python", "Excel", "TypeScript", "Next.js", "Supabase", "PostgreSQL"]
-        # [COMPLETAR] otras herramientas exactas (VBA, Power BI, SQL…)
+@dataclass
+class Consultant:
+    name: str = "Jeff Hernández"
+    city: str = "Bucaramanga, Colombia"
+    speaks: tuple = ("es", "en")
+    role: str = "Accounting & financial consultant for Colombian companies"
+    automates: dict = field(default_factory=lambda: {
+        "freight": "Python scripts that sync freight operations with the TMS",
+        "payroll": "Excel system for payroll",
+        "hours":   "Excel system for time tracking",
+    })
+    building: str = "POS and QR ordering platform for restaurants"
+    stack: tuple = ("Python", "Excel", "TypeScript", "Next.js", "Supabase")  # [COMPLETAR]
+    contact: dict = field(default_factory=lambda: {
+        "email": "[COMPLETAR-correo]",
+        "linkedin": "[COMPLETAR-URL-LinkedIn]",
+    })
 
-    def contact(self):
-        return {
-            "email":    "[COMPLETAR-correo]",
-            "linkedin": "[COMPLETAR-URL-LinkedIn]",
-        }
-
-    def motto(self):
-        return "Si se repite, se automatiza."  # If it repeats, automate it.
+    def rule(self) -> str:
+        # Si se repite, se automatiza.
+        return "If it repeats, automate it."
 
 
 if __name__ == "__main__":
-    me = Jeff()
-    print(me.motto())
+    print(Consultant().rule())
 ```
 
 ```console
-$ ls ~/stack
+$ ls stack/
 ```
 
-<p>
-  <img src="https://skillicons.dev/icons?i=py,ts,nextjs,supabase,postgres,linux,git,vscode&theme=dark" alt="Stack" />
-  <img src="https://img.shields.io/badge/excel-217346?style=for-the-badge" alt="Excel" height="48" />
-</p>
+<img src="https://skillicons.dev/icons?i=py,ts,nextjs,supabase,postgres,linux,git,vscode&theme=dark" alt="Python, TypeScript, Next.js, Supabase, PostgreSQL, Linux, Git, VS Code" />
 
 ```console
-$ git log --author="sneeider11" --oneline | wc -l
+$ gh contributions --user sneeider11
 ```
 
-<p>
-  <img src="https://github-readme-stats.vercel.app/api?username=sneeider11&show_icons=true&hide_border=true&bg_color=0D1117&title_color=10B981&icon_color=10B981&text_color=C9D1D9&custom_title=%24%20git%20stats" alt="Stats" />
-</p>
-
-```console
-$ exit
-logout — gracias por pasar 👋
-```
+<img src="https://github-readme-insight-terminal-asci.vercel.app/svg?user=sneeider11&theme=ubuntu&scale=0.6" width="100%" alt="Contribution graph in a terminal" />

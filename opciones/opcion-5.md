@@ -1,58 +1,55 @@
 <!--
-  ESTILO: Corporativo / portafolio (servicios, proyectos, contacto)
-  INSPIRACIÓN: Martin Heinz (github.com/MartinHeinz/MartinHeinz), categoría "A Little Bit of Everything 😃",
-  y Thomas George Thomas (github.com/Thomas-George-T/Thomas-George-T), categoría "Icons 🎯".
-  Paleta: fondo #0D1117 · esmeralda #10B981 · dorado #F5C451
+  ESTILO: Corporativo / portafolio ("hoja de cálculo")
+  INSPIRACIÓN: Martin Heinz (github.com/MartinHeinz/MartinHeinz, "A Little Bit of Everything 😃") por la estructura de portafolio,
+  y Livio Brunner (github.com/BrunnerLivio/BrunnerLivio, "Retro 😎") por el encabezado como imagen propia del repo.
+  Lección tomada: para quien contrata, una tabla de servicios clara vale más que cualquier widget.
+  El encabezado es assets/hoja-calculo.svg (propio): tu perfil como una hoja de Excel, el lugar donde trabajan tus clientes.
 -->
 
-<img src="https://capsule-render.vercel.app/api?type=rect&color=0:0D1117,100:0F5132&height=150&section=header&text=Jeffryth%20Hern%C3%A1ndez&fontSize=40&fontColor=FFFFFF&fontAlignY=42&desc=Financial%20Consulting%20%C2%B7%20Process%20Automation&descAlignY=70&descSize=16&descColor=F5C451" width="100%" alt="Jeff — banner" />
+<img src="../assets/hoja-calculo.svg" width="100%" alt="Jeffryth Hernández: accounting and finance, Python for freight, Excel systems and a restaurant POS" />
+<br/>
 
-<p align="center">
-  <img src="https://img.shields.io/badge/📍%20Bucaramanga%2C%20Colombia-0D1117?style=for-the-badge" alt="Location" />
-  <img src="https://img.shields.io/badge/🌐%20English%20%7C%20Español-0D1117?style=for-the-badge" alt="Languages" />
-  <img src="https://img.shields.io/badge/Open%20to%20projects-10B981?style=for-the-badge" alt="Available" />
-</p>
+I help Colombian companies keep their numbers in order and stop doing the same work twice.
+*Ayudo a empresas colombianas a tener sus cuentas claras y a dejar de hacer dos veces el mismo trabajo.*
 
-**Hi, I'm Jeff.** I help Colombian companies keep their finances in order and turn repetitive work into automated systems —
-from accounting and reporting to freight operations.
+### Services
 
-> 🇨🇴 *Ayudo a empresas colombianas a tener sus números claros y sus procesos automatizados.*
-
----
-
-## 💼 Services
-
-| | Service | What you get |
-|:--:|---|---|
-| 🧾 | **Accounting & financial consulting** | Clear books, financial reporting and advice for Colombian companies |
-| 🚚 | **Logistics & freight automation** | Python scripts that connect and automate TMS / freight workflows |
-| 📊 | **Excel business systems** | Payroll and time-tracking workbooks built for daily use |
-| 🍽️ | **Restaurant tech** | A POS / QR ordering platform for restaurants (in development) |
-
-## 🚀 Featured projects
-
-| Project | Description | Tech |
+| Service | For | You get |
 |---|---|---|
-| **Restaurant POS / QR ordering** | Customers scan a QR, order from their phone and pay their own share; the kitchen sees it in real time | Next.js · TypeScript · Supabase · PostgreSQL |
-| **Freight / TMS automations** | Python automations for logistics operations — [COMPLETAR: descripción y enlace] | Python |
-| **Payroll system in Excel** | [COMPLETAR: descripción y enlace] | Excel |
-| **Time-tracking system** | [COMPLETAR: descripción y enlace] | Excel |
+| **Accounting & financial consulting** | Colombian small and mid-size companies | Up-to-date books, financial reports and advice you can act on |
+| **Freight and TMS automation** | Logistics and freight teams | Python scripts that move data between your operation and your TMS, without retyping |
+| **Excel business systems** | Teams that run on spreadsheets | Payroll and time-tracking workbooks with clear formulas and checks |
+| **Restaurant technology** | Restaurants | A POS where customers order by QR and pay their own share (in development) |
 
-## 🧰 Toolbox
+### Selected work
 
-<p align="center">
-  <img src="https://skillicons.dev/icons?i=py,ts,nextjs,supabase,postgres,git,github,vscode&theme=dark" alt="Toolbox" />
-  <br/>
-  <img src="https://img.shields.io/badge/Microsoft%20Excel-217346?style=for-the-badge" alt="Excel" />
-  <!-- [COMPLETAR] otras herramientas exactas -->
-</p>
+<details open>
+<summary><b>Restaurant POS and QR ordering</b> &nbsp;Next.js, TypeScript, Supabase, PostgreSQL</summary>
+<br/>
+Customers scan the QR on their table, order from their phone and pay exactly their part. The kitchen sees each order in real time.
+Each restaurant's data is isolated at the database level. Private repository; demo on request.
+</details>
 
-## 📫 Let's work together
+<details>
+<summary><b>Freight and TMS automations</b> &nbsp;Python</summary>
+<br/>
+[COMPLETAR: qué proceso automatiza, cuánto tiempo ahorra y enlace si es público]
+</details>
 
-<p align="center">
-  <a href="mailto:[COMPLETAR-correo]"><img src="https://img.shields.io/badge/Email-10B981?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" /></a>
-  <a href="[COMPLETAR-URL-LinkedIn]"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge" alt="LinkedIn" /></a>
-  <a href="[COMPLETAR-WhatsApp]"><img src="https://img.shields.io/badge/WhatsApp-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" alt="WhatsApp" /></a>
-</p>
+<details>
+<summary><b>Payroll and time-tracking systems</b> &nbsp;Excel</summary>
+<br/>
+[COMPLETAR: para qué tipo de empresa, qué calcula y enlace o captura]
+</details>
 
-<img src="https://capsule-render.vercel.app/api?type=rect&color=0:0F5132,100:0D1117&height=40&section=footer" width="100%" alt="footer" />
+### Tools
+
+<img src="https://skillicons.dev/icons?i=py,ts,nextjs,supabase,postgres,git,github&theme=dark" alt="Python, TypeScript, Next.js, Supabase, PostgreSQL, Git, GitHub" />&nbsp;
+<img src="https://img.shields.io/badge/Excel-2E6B4F?style=for-the-badge" height="48" alt="Excel" />
+<!-- [COMPLETAR] otras herramientas exactas -->
+
+### Work with me
+
+<a href="mailto:[COMPLETAR-correo]"><img src="https://img.shields.io/badge/Email_me-E0A43A?style=for-the-badge&logo=gmail&logoColor=0F1720" alt="Email" /></a>
+<a href="[COMPLETAR-URL-LinkedIn]"><img src="https://img.shields.io/badge/LinkedIn-2E6B4F?style=for-the-badge" alt="LinkedIn" /></a>
+<a href="[COMPLETAR-WhatsApp]"><img src="https://img.shields.io/badge/WhatsApp-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" alt="WhatsApp" /></a>

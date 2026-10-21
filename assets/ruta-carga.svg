@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="260" viewBox="0 0 900 260" role="img" aria-labelledby="t d">
+  <title id="t">Jeff: de la contabilidad a la automatización</title>
+  <desc id="d">Un camión de carga recorre cuatro paradas: contabilidad, Python para fletes, sistemas en Excel y POS para restaurantes.</desc>
+  <style>
+    .bg{fill:#0F1720}
+    .name{font:700 58px 'Arial Narrow','Roboto Condensed','Helvetica Neue',Arial,sans-serif;font-stretch:condensed;fill:#E9E2D0;letter-spacing:.5px}
+    .lede{font:400 19px 'Segoe UI','Helvetica Neue',Arial,sans-serif;fill:#7FC8A9}
+    .city{font:400 14px 'Segoe UI','Helvetica Neue',Arial,sans-serif;fill:#8A97A3}
+    .lbl{font:600 15px 'Segoe UI','Helvetica Neue',Arial,sans-serif;fill:#E9E2D0}
+    .road{stroke:#2A3744;stroke-width:4;stroke-linecap:round;stroke-dasharray:2 12}
+    .stop{fill:#0F1720;stroke:#2E6B4F;stroke-width:3}
+    .s1{animation:lit1 12s infinite}.s2{animation:lit2 12s infinite}.s3{animation:lit3 12s infinite}.s4{animation:lit4 12s infinite}
+    @keyframes lit1{0%,100%{fill:#E0A43A}8%,99%{fill:#2E6B4F}}
+    @keyframes lit2{0%,28%{fill:#0F1720}31%,99%{fill:#2E6B4F}100%{fill:#0F1720}}
+    @keyframes lit3{0%,58%{fill:#0F1720}61%,99%{fill:#2E6B4F}100%{fill:#0F1720}}
+    @keyframes lit4{0%,88%{fill:#0F1720}91%,99%{fill:#E0A43A}100%{fill:#0F1720}}
+    .truck{animation:drive 12s cubic-bezier(.45,0,.25,1) infinite}
+    @keyframes drive{0%,6%{transform:translateX(0)}28%,36%{transform:translateX(240px)}58%,66%{transform:translateX(480px)}88%,100%{transform:translateX(720px)}}
+    @media (prefers-reduced-motion:reduce){.truck,.s1,.s2,.s3,.s4{animation:none}.truck{transform:translateX(720px)}}
+  </style>
+  <rect class="bg" width="900" height="260" rx="14"/>
+  <text class="name" x="56" y="84">Jeff Hernández</text>
+  <text class="lede" x="58" y="118">Accounting consultant who automates the paperwork.</text>
+  <text class="city" x="58" y="144">Bucaramanga, Colombia</text>
+  <line class="road" x1="90" y1="196" x2="830" y2="196"/>
+  <g>
+    <circle class="stop s1" cx="90" cy="196" r="9"/>
+    <circle class="stop s2" cx="330" cy="196" r="9"/>
+    <circle class="stop s3" cx="570" cy="196" r="9"/>
+    <circle class="stop s4" cx="810" cy="196" r="9"/>
+  </g>
+  <text class="lbl" x="90" y="236" text-anchor="middle">Accounting</text>
+  <text class="lbl" x="330" y="236" text-anchor="middle">Python for freight</text>
+  <text class="lbl" x="570" y="236" text-anchor="middle">Excel systems</text>
+  <text class="lbl" x="810" y="236" text-anchor="middle">Restaurant POS</text>
+  <g class="truck">
+    <g transform="translate(62 160)">
+      <rect width="40" height="22" rx="2" fill="#E0A43A"/>
+      <path d="M8 3v16M16 3v16M24 3v16M32 3v16" stroke="#B57F22" stroke-width="2"/>
+      <path d="M41 6h9l6 7v9H41z" fill="#E9E2D0"/>
+      <rect x="45" y="8" width="5" height="5" fill="#0F1720"/>
+      <circle cx="10" cy="25" r="4" fill="#0F1720" stroke="#E9E2D0" stroke-width="2"/>
+      <circle cx="47" cy="25" r="4" fill="#0F1720" stroke="#E9E2D0" stroke-width="2"/>
+    </g>
+  </g>
+</svg>

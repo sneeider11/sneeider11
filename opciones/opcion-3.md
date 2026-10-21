@@ -1,55 +1,34 @@
 <!--
-  ESTILO: Enfocado en estadísticas (stats, lenguajes, racha, gráfico de contribuciones)
-  INSPIRACIÓN: Anurag Hazra (github.com/anuraghazra/anuraghazra), creador de github-readme-stats,
-  categoría "Dynamic Realtime 💫".
-  Paleta: fondo #0D1117 · esmeralda #10B981 · dorado #F5C451 · texto #C9D1D9
-  NOTA: los trofeos (github-profile-trophy) y el activity graph oficiales responden 402 (instancia
-  pública suspendida) al 21 oct 2026; por eso se usa el gráfico de ghchart.rshah.org.
+  ESTILO: Enfocado en estadísticas ("estado financiero de mi GitHub")
+  INSPIRACIÓN: Anurag Hazra (github.com/anuraghazra/anuraghazra, "Dynamic Realtime 💫"), creador de github-readme-stats,
+  y Simon Willison (github.com/simonw/simonw, "GitHub Actions 🤖") por organizar los datos en columnas con una tabla.
+  Lección tomada: las estadísticas se leen mejor con un marco que tenga sentido para quien las mira;
+  aquí se presentan como un estado financiero, con secciones contables.
+  REQUISITO: activar "Include private contributions on my profile" en GitHub (ver COMPARACION.md),
+  si no, las tarjetas salen casi en cero porque tu trabajo está en repos privados.
+  MEJORA OPCIONAL: "github-candles" (sección Tools de la lista, licencia MIT) dibuja tus contribuciones como
+  velas de bolsa. Necesita copiar un script y un workflow de GitHub Actions; se agrega al elegir esta opción.
 -->
 
-<h1 align="center">Jeff — Finance × Code 📈</h1>
-<p align="center"><i>Accounting & financial consultant · Python automation for freight & TMS · Excel systems · Restaurant POS</i></p>
-<p align="center"><i>🇨🇴 Consultor contable y financiero en Bucaramanga, automatizando lo que se repite.</i></p>
+<h2 align="center">Jeff Hernández: GitHub financial statement</h2>
+<p align="center">Accounting consultant who automates freight, payroll and restaurant operations.<br/>
+<i>Consultor contable en Bucaramanga: estos son mis números como programador.</i></p>
 
 <p align="center">
-  <img src="https://komarev.com/ghpvc/?username=sneeider11&label=Profile%20views&color=10B981&style=flat-square" alt="Profile views" />
-  <img src="https://img.shields.io/github/followers/sneeider11?label=Followers&style=flat-square&color=F5C451&labelColor=0D1117" alt="Followers" />
+  <img src="https://github-readme-stats.vercel.app/api?username=sneeider11&show_icons=true&hide_rank=true&hide_border=true&card_width=360&custom_title=Balance&bg_color=0F1720&title_color=E0A43A&icon_color=7FC8A9&text_color=E9E2D0" alt="Balance: commits, PRs and issues" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=sneeider11&layout=compact&hide_border=true&card_width=360&custom_title=Portfolio%20composition&bg_color=0F1720&title_color=E0A43A&text_color=E9E2D0" alt="Portfolio composition: top languages" />
 </p>
-
----
-
-### 📊 GitHub stats
-
-<table align="center">
-  <tr>
-    <td>
-      <img src="https://github-readme-stats.vercel.app/api?username=sneeider11&show_icons=true&include_all_commits=true&count_private=true&hide_border=true&bg_color=0D1117&title_color=10B981&icon_color=F5C451&text_color=C9D1D9" alt="GitHub stats" />
-    </td>
-    <td>
-      <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=sneeider11&layout=compact&hide_border=true&bg_color=0D1117&title_color=10B981&text_color=C9D1D9" alt="Top languages" />
-    </td>
-  </tr>
-</table>
 
 <p align="center">
-  <img src="https://streak-stats.demolab.com?user=sneeider11&background=0D1117&border=30363D&ring=10B981&fire=F5C451&currStreakLabel=F5C451&sideLabels=C9D1D9&dates=8B949E&currStreakNum=FFFFFF&sideNums=FFFFFF&stroke=30363D" alt="Streak stats" />
+  <img src="https://streak-stats.demolab.com?user=sneeider11&background=0F1720&border=26323D&stroke=26323D&ring=2E6B4F&fire=E0A43A&currStreakNum=E9E2D0&sideNums=E9E2D0&currStreakLabel=E0A43A&sideLabels=8A97A3&dates=8A97A3" alt="Cash flow: contribution streak" />
 </p>
 
-### 🟩 Contribution graph
+### Where the numbers come from
 
-<p align="center">
-  <img src="https://ghchart.rshah.org/10b981/sneeider11" width="90%" alt="Contribution chart" />
-</p>
+Accounting and financial consulting for Colombian companies, Python automations for freight and TMS,
+Excel payroll and time-tracking systems, and a restaurant POS in development.
 
-### 🧰 What I work with
+<img src="https://skillicons.dev/icons?i=py,ts,nextjs,supabase,postgres&theme=dark" height="34" alt="Stack" />&nbsp;
+<img src="https://img.shields.io/badge/Excel-2E6B4F?style=flat-square" height="34" alt="Excel" />
 
-<p align="center">
-  <img src="https://skillicons.dev/icons?i=py,ts,nextjs,supabase,postgres,git,github,vscode&theme=dark" alt="Skills" />
-  <br/>
-  <img src="https://img.shields.io/badge/Microsoft%20Excel-217346?style=flat-square" alt="Excel" />
-  <!-- [COMPLETAR] otras herramientas exactas -->
-</p>
-
-### 📫 Contact
-
-[COMPLETAR-correo] · [LinkedIn]([COMPLETAR-URL-LinkedIn])
+Contact: [COMPLETAR-correo] or [LinkedIn]([COMPLETAR-URL-LinkedIn])
